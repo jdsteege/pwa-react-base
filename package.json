@@ -1,5 +1,5 @@
 {
-  "name": "pwa-base",
+  "name": "pwa-react-base",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
