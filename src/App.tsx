@@ -1,10 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "@mantine/core";
 
 function App() {
   return (
     <div className="App">
+      <Button variant="outline">Press Me</Button>
+
+      <Button.Group>
+        <Button variant="default">First</Button>
+        <Button variant="default">Second</Button>
+        <Button variant="default">Third</Button>
+      </Button.Group>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
